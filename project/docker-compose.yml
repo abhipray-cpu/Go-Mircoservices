@@ -1,29 +1,3 @@
-/**
- * Docker Compose file for a microservices project.
- * 
- * This file defines the services and their configurations for the project.
- * It includes services for a broker, logger, mailer, authentication, listener,
- * PostgreSQL, MongoDB, MailHog, and RabbitMQ.
- * 
- * Services:
- * - broker-service: A service for the broker component.
- * - logger-service: A service for the logger component.
- * - mailer-service: A service for the mailer component.
- * - authentication-service: A service for the authentication component.
- * - listener-service: A service for the listener component.
- * - postgres: A PostgreSQL database service.
- * - mongo: A MongoDB database service.
- * - mailhog: A MailHog service for email testing.
- * - rabbitmq: A RabbitMQ message broker service.
- * 
- * Configuration:
- * - Ports: The ports on which the services are exposed.
- * - Deploy: The deployment configuration for the services.
- * - Environment: The environment variables for the services.
- * - Volumes: The volumes for persistent data storage.
- * 
- * Note: Replace the FILEPATH with the actual file path on your system.
- */
 version: '3'
 
 services:
